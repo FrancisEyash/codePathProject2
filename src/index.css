@@ -1,11 +1,11 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 800;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #000000;
+  background-color: #FFFFFF;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +28,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('src/assets/david-boca-Xqmj-oQ_Nek-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
@@ -65,4 +68,47 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.Main-card {
+  height: 90vh;
+  width: 80vw;
+  background-color: rgb(225, 236, 233, 0.6) ;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FlashCard {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:0 5px 25px rgba(0,0,0,0.3);
+}
+
+.Buttons {
+  margin-top: 2rem;
+}
+
+.Button-one {
+  margin-right: 1rem;
+}
+
+.Answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 30%;
+  max-height: 600px;
 }
